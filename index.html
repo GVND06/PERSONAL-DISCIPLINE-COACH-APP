@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Discipline Coach</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Personal Discipline Coach</h1>
+            <p>Your daily guide to success.</p>
+        </header>
+        <main>
+            <div class="goals-section">
+                <h2>Today's Goals</h2>
+                <div class="goal-input">
+                    <input type="text" id="goal-input" placeholder="Add a new goal...">
+                    <button id="add-goal-btn">Add</button>
+                </div>
+                <ul id="goal-list"></ul>
+            </div>
+            <div class="progress-section">
+                <h2>Daily Progress</h2>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"></div>
+                </div>
+                <p class="progress-text">0% Complete</p>
+            </div>
+            <div class="motivation-section">
+                <h2>Quote of the Day</h2>
+                <blockquote id="quote">
+                    <p id="quote-text">"The only way to do great work is to love what you do."</p>
+                    <cite id="quote-author">- Steve Jobs</cite>
+                </blockquote>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
